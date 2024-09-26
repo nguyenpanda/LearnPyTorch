@@ -4,6 +4,7 @@ from nguyenpanda.crow import nb_utils
 
 IN_COLAB = nb_utils.is_colab()
 
+
 class MNISTAutoencoder(nn.Module):
 
     def __init__(self):
